@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.02px;
+    color: #334155;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color:#fff;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    color: #334155;
+}
+
+h4{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    color:#fff;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: #8081BD;
+
+}
+
+.txt-sm{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color:#fff;
+}
+
+.txt-sm-2{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    color: #fff;
+}
+
+.txt-sm-3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: #fff;
+}
+
+.txt-sm-4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #334155;
+
+}
+
+.txt-sm-5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    color:#8081BD;
+}
+
+.txt-color{
+    color: black;
+}
+
+.txt-color-2{
+    color: #334155;
+    cursor: pointer;
+}
+
+.txt-number{
+    font-weight: 600;
+}
+
+.otstup{
+    margin: 0 120px 0 120px;
+
+}
+
+.otstup-2{
+    margin: 0 50px 0 50px;
+
+}
+
+.otstup-3{
+    margin: 0 -50px 0 -50px;
+
+}
+
+.menu-font{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #334155;
+
+}
+
+.menu-font_phone{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19.14px;
+    color: #334155;
+
+}
+
+.menu-posit{
+    margin-top: 12px;
+}
+
+.menu-posit-2{
+    margin-top: 25px;
+}
+
+.menu-posit-3{
+    margin-left: 45px;
+}
+
+.address-font-1{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    color: #EA5D4A;
+
+}
+
+.address-font-2{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    color: #0d6efd;
+
+}
+
+.card-width{
+    width: 23rem;
+    height: 34.5rem;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: purple;
+    --bs-tooltip-color: black;
+  }
+
+.btn-sub {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #8081BD;
+    --bs-btn-border-color: #8081BD;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8081BD;
+    --bs-btn-hover-border-color: #8081BD;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #8081BD;;
+    --bs-btn-active-border-color: #8081BD;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8081BD;
+    --bs-btn-disabled-border-color: #8081BD;
+  }
+
+  .btn-orange {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #EA5D4A;
+    --bs-btn-border-color: #EA5D4A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #EA5D4A;
+    --bs-btn-hover-border-color: #EA5D4A;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #EA5D4A;
+    --bs-btn-active-border-color: #EA5D4A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #EA5D4A;
+    --bs-btn-disabled-border-color: #EA5D4A;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color:#334155;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #8081BD;
+}
+
+.text-bg-purple{
+  color: #fff;
+  background-color: #8081BD;
+}
+
+.form-1{
+    margin-left: -19px;
+    margin-right: 0;
+    border: 0;
+}
+
+.bg-slider{
+    background-image: url("./Mask group.png");
+    height: 550px;
+    background-repeat: no-repeat;
+}
+
+.bg-boy{
+    background-image: url("./bg-boy.png");
+    background-repeat: no-repeat;
+}
+
+.bg-boy-2{
+    background-image: url("./bg-boy-2.png");
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: #FFF6D1;
+
+}
+
+.bg-purple{
+    margin-top: 3%;
+    justify-content: space-between;
+    padding: 3% 4%;
+    background-color: #F2F2FF;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.accordion-1 {
+    --bs-accordion-color: var(--bs-body-color);
+    --bs-accordion-bg: #FFF6D1;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+    --bs-accordion-border-color:  #FDDC4E;
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+    --bs-accordion-active-bg:  #FDDC4E;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.nobullet{
+    list-style-type: none;
+}
+
+.wrap{
+    margin: 0 auto;
+    max-width: 1497px;
+}
+
+.flex_ex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_new{
+    justify-content: start;
+    margin-left: -30px;
+}
+
+.item{
+    margin-left: 30px;
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 25px;
+}
+
+.item div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item div img {
+    margin-right: 20px;
+}
+
+.item span{
+    font-weight: 700;
+}
+
+.p-8 {
+    padding: 4rem !important;
+  }
+
+@media (max-width: 1497px) {
+    .btn-991{
+        display: none;
+    }
+
+}
+@media (max-width: 1397px) {
+    .btn-991{
+        display: none;
+    }
+    .bg-slider{
+        background: url("https://kidsstory.life/wp-content/uploads/2022/07/slider-1.webp") 
+        center center / cover;
+        width: 1300px;
+    }
+    .slider-2{
+        width: 1080px; 
+    }
+
+}
+@media (max-width: 1243px) {
+    .w-1024{
+        width: 100%;
+    }
+    .btn-991{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-form-1024{
+        width: 20em;
+    }
+    .bg-slider{
+        height: 38em;
+    }
+    .slider-2{
+        height: 38em;
+    }
+    .col-1024-sm-5{
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+    .col-1024-md-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .offset-1024-sm-2 {
+        margin-left: 16.66666667%;
+    }
+    .offset-1024-md-0 {
+        margin-left: 0;
+    }
+    .row-1024{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+    }
+    .btn-991{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-991{
+        flex: 1 0 0%;
+    }
+    .row-991{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+    }
+    .card-width{
+        display: block;
+        width: auto;
+    }
+    .footer{
+        display: none;
+    }
+    .btn-991{
+        display: block;
+    }
+    .bg-slider{
+        background: url("https://kidsstory.life/wp-content/uploads/2022/07/slider-1.webp") 
+        center center / cover;
+        width: 946px;
+    }
+    .slider-2{
+        width: 900px; 
+    }
+    .box-768{
+        width: 600px;
+       }
+}
+
+@media (max-width: 834px) {
+    h2{
+        font-size: 32px;
+    }
+    .box-768{
+        width: 600px;
+       }
+}
+
+@media (max-width: 768px) {
+    .bg-slider{
+        background: url("https://kidsstory.life/wp-content/uploads/2022/07/slider-1.webp") 
+        center center / cover;
+        width: 748px;
+    }
+    .slider-2{
+        width: 735px; 
+    }
+   .wrap{
+    width: 556px;
+   }
+   .flex_new{
+    margin-left: 0;
+   }
+   .item{
+    width: 100%;
+    margin-left: 0;
+   }
+   .box-768{
+    width: 600px;
+   }
+}
+
+@media (max-width: 430px) {
+    .wrap{
+        width: auto;
+        padding: 0 20px;
+    }
+    .flex_ex{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .flex_new{
+        margin-left: -30px;
+        justify-content: flex-start;
+    }
+    .item{
+        width: calc(100% / 2 - 30px);
+        margin-left: 30px;
+    }
+    .item div{
+        display: block;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .txt-sm-3{
+        font-size: 14px;
+    }
+    .otstup{
+        margin: 0 30px 0 30px;
+    }
+    .txt-sm-4{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-375{
+        display: none;
+    }
+    .mb-375{
+        margin-top: -10px;
+    }
+    .txt-375{
+        font-size: 10px;
+    }
+    .heading{
+        font-size: 32px;
+    }
+    .card-width{
+        height: 36rem;
+    }
+    .ms-375{
+        margin-left: -2rem;
+    }
+    .ms-375-2{
+        margin-right: 10rem;
+    }
+    .ms-8{
+        margin-left: -1rem;
+    }
+    .otstup-3-375{
+        margin: 0 -100px 0 -50px;
+    
+    }
+}
